@@ -1,0 +1,59 @@
+Hero Section
+Headline: "Launch Your SaaS in Just Hours—Optimized for AI-Powered Development! 🚀"
+Subheadline: "Built for AI-assisted coding! With Next.js, Supabase, and Stripe, RapidSaaS gives you pre-built payments, subscriptions, and authentication—so you can move fast and let AI handle the rest."
+CTA Button: "Get Instant Access" → Redirects to Stripe Checkout
+Visual: Animated GIF or screenshot preview of the boilerplate
+
+Key Features
+Pre-built Pages
+Essential pages to kickstart your SaaS, including onboarding, settings, and billing.
+
+Stripe Payments
+Seamless integration with Stripe for payments.
+
+Subscription
+Manage user plans with automatic billing and upgrades.
+
+Authentication
+🔹 Email & Google Authentication – Secure login options via Supabase.
+🔹 Password Management – Users can change or reset passwords easily.
+🔹 Subscription Integration – Restrict features based on user plans.
+
+Optimized for Scalability
+Next.js + Supabase for high performance, security, and effortless scaling.
+
+Demo
+Link to live demo
+
+Pricing
+Single Pricing: $40 for lifetime access.
+CTA Button: "Get Instant Access
+
+FAQ
+❓ What is RapidSaaS?
+RapidSaaS is a pre-built SaaS boilerplate designed for AI-assisted development. It includes Next.js, Supabase, and Stripe integrations, so you can focus on building features instead of boilerplate setup.
+
+❓ Who is RapidSaaS for?
+It’s perfect for developers using AI code editors like Cursor, looking to quickly launch a SaaS product with authentication, payments, and subscriptions already set up.
+
+❓ How does RapidSaaS complement AI coding tools?
+Since RapidSaaS handles the repetitive setup (auth, payments, subscriptions), AI code editors like Cursor can help you rapidly modify and extend the boilerplate without starting from scratch.
+
+❓ Can I customize RapidSaaS using AI-assisted coding?
+Yes! RapidSaaS is structured to work seamlessly with AI code editors. You can use AI to refactor code, generate new components, and add custom business logic effortlessly.
+
+❓ Is there a subscription fee?
+No, RapidSaaS is a one-time purchase with no recurring fees.
+
+❓ Can I use this for multiple projects?
+Yes, you can use RapidSaaS for multiple projects, but reselling or redistributing the code is not allowed.
+
+❓ How do I get access after purchasing?
+After payment, you’ll receive an instant download link via email.
+
+❓ Is there documentation included?
+Yes, RapidSaaS includes detailed setup instructions to help you get started quickly. 
+
+Footer
+Contact info
+Terms & conditions

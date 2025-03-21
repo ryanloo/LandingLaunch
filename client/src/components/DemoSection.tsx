@@ -7,7 +7,7 @@ export default function DemoSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">See RapidSaaS in Action</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Check out our live demo to experience how your SaaS could look and feel.
+            Experience the fully-functional preview of what you'll be getting with RapidSaaS.
           </p>
         </div>
 
@@ -21,7 +21,7 @@ export default function DemoSection() {
                   </svg>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-800 mb-2">RapidSaaS Demo</h3>
-                <p className="text-gray-600 mb-6">Click to see the full product in action</p>
+                <p className="text-gray-600 mb-6">Explore the complete product and see what awaits you</p>
                 <Button
                   className="inline-flex items-center justify-center px-6 py-3 h-auto border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-primary/90 md:py-4 md:text-lg md:px-10"
                 >

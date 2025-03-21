@@ -57,7 +57,13 @@ export default function Home() {
         />
       </main>
       
-      <Footer />
+      <Footer 
+        onNavigate={{
+          features: () => scrollToSection(featuresRef),
+          demo: () => scrollToSection(demoRef),
+          faq: () => scrollToSection(faqRef),
+        }}
+      />
     </div>
   );
 }

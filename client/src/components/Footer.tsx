@@ -1,6 +1,14 @@
 import { Link } from "wouter";
 
-export default function Footer() {
+interface FooterProps {
+  onNavigate: {
+    features: () => void;
+    demo: () => void;
+    faq: () => void;
+  };
+}
+
+export default function Footer({ onNavigate }: FooterProps) {
   return (
     <footer className="bg-gray-900 text-gray-400 py-12">
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
@@ -19,27 +27,27 @@ export default function Footer() {
           
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6">
             <div>
+              <h3 className="text-sm font-semibold text-white uppercase mb-4">Product</h3>
+              <ul className="space-y-2">
+                <li><button onClick={onNavigate.features} className="text-gray-400 hover:text-white transition duration-150">Features</button></li>
+                <li><button onClick={onNavigate.demo} className="text-gray-400 hover:text-white transition duration-150">Demo</button></li>
+                <li><button onClick={onNavigate.faq} className="text-gray-400 hover:text-white transition duration-150">FAQ</button></li>
+              </ul>
+            </div>
+            <div>
               <h3 className="text-sm font-semibold text-white uppercase mb-4">Resources</h3>
               <ul className="space-y-2">
-                <li><Link href="#" className="text-gray-400 hover:text-white transition duration-150">Documentation</Link></li>
-                <li><Link href="#" className="text-gray-400 hover:text-white transition duration-150">Demo</Link></li>
                 <li><Link href="#" className="text-gray-400 hover:text-white transition duration-150">Support</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-sm font-semibold text-white uppercase mb-4">Company</h3>
-              <ul className="space-y-2">
-                <li><Link href="#" className="text-gray-400 hover:text-white transition duration-150">About Us</Link></li>
-                <li><Link href="#" className="text-gray-400 hover:text-white transition duration-150">Blog</Link></li>
-                <li><Link href="#" className="text-gray-400 hover:text-white transition duration-150">Contact</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-sm font-semibold text-white uppercase mb-4">Legal</h3>
-              <ul className="space-y-2">
-                <li><Link href="#" className="text-gray-400 hover:text-white transition duration-150">Privacy Policy</Link></li>
                 <li><Link href="#" className="text-gray-400 hover:text-white transition duration-150">Terms & Conditions</Link></li>
-                <li><Link href="#" className="text-gray-400 hover:text-white transition duration-150">License</Link></li>
+                <li><Link href="#" className="text-gray-400 hover:text-white transition duration-150">Privacy Policy</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-white uppercase mb-4">Connect</h3>
+              <ul className="space-y-2">
+                <li><Link href="#" className="text-gray-400 hover:text-white transition duration-150">Contact Us</Link></li>
+                <li><Link href="#" className="text-gray-400 hover:text-white transition duration-150">Twitter</Link></li>
+                <li><Link href="#" className="text-gray-400 hover:text-white transition duration-150">GitHub</Link></li>
               </ul>
             </div>
           </div>

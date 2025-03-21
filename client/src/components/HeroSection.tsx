@@ -49,7 +49,7 @@ export default function HeroSection({ onFeatureClick, onPricingClick }: HeroSect
             <h3 className="font-bold text-gray-900">Fast Setup</h3>
           </div>
           <div className="flex flex-col items-center text-center">
-            <div className="p-3 rounded-full mb-4" style={{ background: 'linear-gradient(135deg, #3498db 0%, #45aaf2 100%)' }}>
+            <div className="p-3 rounded-full mb-4" style={{ background: 'linear-gradient(135deg, #7c3aed 0%, #a78bfa 100%)' }}>
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"></path>
               </svg>
@@ -57,7 +57,7 @@ export default function HeroSection({ onFeatureClick, onPricingClick }: HeroSect
             <h3 className="font-bold text-gray-900">Next.js + Supabase</h3>
           </div>
           <div className="flex flex-col items-center text-center">
-            <div className="p-3 rounded-full mb-4" style={{ background: 'linear-gradient(135deg, #2ecc71 0%, #4cd137 100%)' }}>
+            <div className="p-3 rounded-full mb-4" style={{ background: 'linear-gradient(135deg, #8b5cf6 0%, #c4b5fd 100%)' }}>
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
               </svg>
@@ -65,7 +65,7 @@ export default function HeroSection({ onFeatureClick, onPricingClick }: HeroSect
             <h3 className="font-bold text-gray-900">Authentication</h3>
           </div>
           <div className="flex flex-col items-center text-center">
-            <div className="p-3 rounded-full mb-4" style={{ background: 'linear-gradient(135deg, #e74c3c 0%, #ff6b6b 100%)' }}>
+            <div className="p-3 rounded-full mb-4" style={{ background: 'linear-gradient(135deg, #9333ea 0%, #a855f7 100%)' }}>
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
               </svg>

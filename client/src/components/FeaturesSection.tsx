@@ -14,7 +14,7 @@ export default function FeaturesSection() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Feature Card 1 */}
           <div className="bg-white rounded-xl p-8 border border-gray-200 shadow-sm hover:shadow-lg hover:border-purple-200 transition-all duration-300 hover:transform hover:scale-[1.02]">
-            <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ background: 'linear-gradient(135deg, #6c5ce7 0%, #8075f7 100%)' }}>
+            <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ background: 'linear-gradient(135deg, #6c5ce7 0%, #8b5cf6 100%)' }}>
               <LayoutTemplate className="w-7 h-7 text-white" />
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-3">Pre-built Pages</h3>
@@ -24,8 +24,8 @@ export default function FeaturesSection() {
           </div>
 
           {/* Feature Card 2 */}
-          <div className="bg-white rounded-xl p-8 border border-gray-200 shadow-sm hover:shadow-lg hover:border-red-200 transition-all duration-300 hover:transform hover:scale-[1.02]">
-            <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ background: 'linear-gradient(135deg, #e74c3c 0%, #ff6b6b 100%)' }}>
+          <div className="bg-white rounded-xl p-8 border border-gray-200 shadow-sm hover:shadow-lg hover:border-purple-200 transition-all duration-300 hover:transform hover:scale-[1.02]">
+            <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ background: 'linear-gradient(135deg, #7c3aed 0%, #a78bfa 100%)' }}>
               <CreditCard className="w-7 h-7 text-white" />
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-3">Stripe Payments</h3>
@@ -35,8 +35,8 @@ export default function FeaturesSection() {
           </div>
 
           {/* Feature Card 3 */}
-          <div className="bg-white rounded-xl p-8 border border-gray-200 shadow-sm hover:shadow-lg hover:border-blue-200 transition-all duration-300 hover:transform hover:scale-[1.02]">
-            <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ background: 'linear-gradient(135deg, #3498db 0%, #45aaf2 100%)' }}>
+          <div className="bg-white rounded-xl p-8 border border-gray-200 shadow-sm hover:shadow-lg hover:border-purple-200 transition-all duration-300 hover:transform hover:scale-[1.02]">
+            <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ background: 'linear-gradient(135deg, #8b5cf6 0%, #c4b5fd 100%)' }}>
               <BellRing className="w-7 h-7 text-white" />
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-3">Subscription</h3>
@@ -46,21 +46,21 @@ export default function FeaturesSection() {
           </div>
 
           {/* Feature Card 4 */}
-          <div className="bg-white rounded-xl p-8 border border-gray-200 shadow-sm hover:shadow-lg hover:border-green-200 transition-all duration-300 hover:transform hover:scale-[1.02]">
-            <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ background: 'linear-gradient(135deg, #2ecc71 0%, #4cd137 100%)' }}>
+          <div className="bg-white rounded-xl p-8 border border-gray-200 shadow-sm hover:shadow-lg hover:border-purple-200 transition-all duration-300 hover:transform hover:scale-[1.02]">
+            <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ background: 'linear-gradient(135deg, #a78bfa 0%, #c4b5fd 100%)' }}>
               <ShieldCheck className="w-7 h-7 text-white" />
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-3">Authentication</h3>
             <p className="text-gray-600">
-              <span style={{ color: '#2ecc71', fontWeight: 'bold' }}>⚡</span> Email & Google Authentication via Supabase<br />
-              <span style={{ color: '#3498db', fontWeight: 'bold' }}>⚡</span> Easy password management<br />
-              <span style={{ color: '#f39c12', fontWeight: 'bold' }}>⚡</span> Subscription-based access control
+              <span style={{ color: '#6c5ce7', fontWeight: 'bold' }}>⚡</span> Email & Google Authentication via Supabase<br />
+              <span style={{ color: '#7c3aed', fontWeight: 'bold' }}>⚡</span> Easy password management<br />
+              <span style={{ color: '#8b5cf6', fontWeight: 'bold' }}>⚡</span> Subscription-based access control
             </p>
           </div>
 
           {/* Feature Card 5 */}
           <div className="bg-white rounded-xl p-8 border border-gray-200 shadow-sm hover:shadow-lg hover:border-purple-200 transition-all duration-300 hover:transform hover:scale-[1.02]">
-            <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ background: 'linear-gradient(135deg, #9b59b6 0%, #b178d4 100%)' }}>
+            <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ background: 'linear-gradient(135deg, #6c5ce7 0%, #8b5cf6 100%)' }}>
               <Code className="w-7 h-7 text-white" />
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-3">AI-Ready Code</h3>
@@ -70,8 +70,8 @@ export default function FeaturesSection() {
           </div>
 
           {/* Feature Card 6 */}
-          <div className="bg-white rounded-xl p-8 border border-gray-200 shadow-sm hover:shadow-lg hover:border-orange-200 transition-all duration-300 hover:transform hover:scale-[1.02]">
-            <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ background: 'linear-gradient(135deg, #f39c12 0%, #fdcb6e 100%)' }}>
+          <div className="bg-white rounded-xl p-8 border border-gray-200 shadow-sm hover:shadow-lg hover:border-purple-200 transition-all duration-300 hover:transform hover:scale-[1.02]">
+            <div className="w-14 h-14 rounded-lg flex items-center justify-center mb-6" style={{ background: 'linear-gradient(135deg, #9333ea 0%, #a855f7 100%)' }}>
               <Rocket className="w-7 h-7 text-white" />
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-3">Optimized for Scalability</h3>

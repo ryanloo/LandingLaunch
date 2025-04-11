@@ -1,6 +1,22 @@
 import { Button } from "@/components/ui/button";
+import { useLocation } from "wouter";
+import { createCheckoutSession } from "@/api/stripe";
 
 export default function PricingSection() {
+  const [, setLocation] = useLocation();
+
+  const handleCheckout = async () => {
+    try {
+      await createCheckoutSession();
+    } catch (error) {
+      console.error('Error during checkout:', error);
+      // You might want to show an error message to the user here
+    }
+  };
+
+  const isStripeConfigured = import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY && 
+                            import.meta.env.VITE_STRIPE_PRODUCT_ID;
+
   return (
     <section className="py-16 md:py-24 bg-gray-50">
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
@@ -108,11 +124,19 @@ export default function PricingSection() {
 
                 <div className="mt-10">
                   <Button
-                    className="relative block w-full bg-white text-[#6c5ce7] rounded-lg py-4 h-auto text-center font-bold text-lg transition-all duration-300 overflow-hidden shadow-[0_5px_15px_rgba(0,0,0,0.2)] hover:shadow-[0_8px_25px_rgba(0,0,0,0.3)] group"
+                    onClick={handleCheckout}
+                    disabled={!isStripeConfigured}
+                    className={`relative block w-full bg-white text-[#6c5ce7] rounded-lg py-4 h-auto text-center font-bold text-lg transition-all duration-300 overflow-hidden shadow-[0_5px_15px_rgba(0,0,0,0.2)] hover:shadow-[0_8px_25px_rgba(0,0,0,0.3)] group ${
+                      !isStripeConfigured ? 'opacity-50 cursor-not-allowed' : ''
+                    }`}
                   >
-                    <span className="relative z-10">Get Instant Access</span>
+                    <span className="relative z-10">
+                      {isStripeConfigured ? 'Get Instant Access' : 'Payment System Not Configured'}
+                    </span>
                     <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-[#a29bfe] to-[#6c5ce7] opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-0"></div>
-                    <span className="absolute top-0 left-0 w-full h-full text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20 flex items-center justify-center font-bold">Get Instant Access</span>
+                    <span className="absolute top-0 left-0 w-full h-full text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20 flex items-center justify-center font-bold">
+                      {isStripeConfigured ? 'Get Instant Access' : 'Payment System Not Configured'}
+                    </span>
                   </Button>
                 </div>
               </div>

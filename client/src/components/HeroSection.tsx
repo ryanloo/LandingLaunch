@@ -11,11 +11,11 @@ export default function HeroSection({ onFeatureClick, onPricingClick }: HeroSect
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
-            <span className="inline-block" style={{ background: 'linear-gradient(90deg, #6c5ce7 0%, #a29bfe 50%, #7c3aed 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', textShadow: '0 2px 10px rgba(108, 92, 231, 0.1)' }}>
+            <span className="inline-block text-4xl md:text-6xl" style={{ background: 'linear-gradient(90deg, #6c5ce7 0%, #a29bfe 50%, #7c3aed 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', textShadow: '0 2px 10px rgba(108, 92, 231, 0.1)' }}>
               Launch Your SaaS in Just Hours
             </span>
             <br />
-            <span className="inline-block text-gray-900">
+            <span className="inline-block text-gray-900 text-2xl md:text-4xl">
               Optimized for AI-Powered Development! 🚀
             </span>
           </h1>

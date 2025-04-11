@@ -64,6 +64,7 @@ export default function DemoSection() {
                 </p>
                 
                 <Button
+                  onClick={() => window.open("https://saas-template-ebon.vercel.app/", "_blank", "noopener,noreferrer")}
                   className="px-8 py-4 h-auto text-base md:text-lg font-bold rounded-lg shadow-lg bg-gradient-to-r from-[#6c5ce7] to-[#8b5cf6] text-white hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
                 >
                   <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

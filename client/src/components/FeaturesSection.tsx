@@ -34,7 +34,7 @@ export default function FeaturesSection() {
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-3">Stripe Payments</h3>
             <p className="text-gray-600">
-              Seamless integration with Stripe for payments, so you can start accepting money right away.
+              Seamless integration with Stripe for transactions, so you can start accepting payments right away.
             </p>
           </div>
 

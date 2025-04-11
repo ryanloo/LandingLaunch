@@ -21,8 +21,6 @@ LandingLaunch is a modern, full-stack web application designed to help businesse
 - Database management with Drizzle ORM
 - Type-safe development with TypeScript
 
-
-
 ## Learn More
 
 For more information about our services, visit [RapiSaaS](https://rapisaas.xyz).

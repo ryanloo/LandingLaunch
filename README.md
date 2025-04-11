@@ -1,24 +1,22 @@
-# LandingLaunch
+# RapidSaaS.xyz
 
-LandingLaunch is a modern, full-stack web application designed to help businesses create and manage landing pages efficiently. Built with cutting-edge technologies, it provides a seamless experience for both developers and end-users.
+RapidSaaS is a production-ready SaaS boilerplate featuring authentication, Stripe-based subscriptions, and a customizable landing page.
 
 ## Tech Stack
 
-- **Frontend**: React 18, TypeScript, Vite, Tailwind CSS
-- **Backend**: Express.js, TypeScript, PostgreSQL
-- **UI Components**: Radix UI, Framer Motion
-- **Database**: PostgreSQL with Drizzle ORM
-- **Authentication**: Passport.js
+- **Frontend**: React 18, TypeScript, Tailwind CSS, Next.js
+- **Backend**: Supabase, Stripe, Next.JS
+- **Database**: PostgreSQL(via Supabase)
+- **Authentication**: Supabase Auth
 - **Deployment**: Vercel
 
 ## Features
 
-- Modern, responsive UI with beautiful animations
-- Real-time updates using WebSocket
+- Modern, responsive UI
 - Secure authentication system
 - Email integration
 - Payment processing with Stripe
-- Database management with Drizzle ORM
+- Database management with Supabase
 - Type-safe development with TypeScript
 
 ## Learn More

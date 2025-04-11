@@ -21,7 +21,7 @@ RapidSaaS is a production-ready SaaS boilerplate featuring authentication, Strip
 
 ## Learn More
 
-For more information about our services, visit [RapiSaaS](https://rapisaas.xyz).
+For more information about our services, visit [RapidSaaS](https://rapidsaas.xyz).
 
 ## License
 
